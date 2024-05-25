@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "221546725576",
+    "project_id": "shibu-fire",
+    "storage_bucket": "shibu-fire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221546725576:android:63f6a4effb1d4ee70c25fd",
+        "android_client_info": {
+          "package_name": "com.example.shibu_fire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn-4WRncmisnGpR8SqytoPHXVltQl1UL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
