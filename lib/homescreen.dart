@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
         stream: StService().getdata(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(
+            return const Center(
               child: CircularProgressIndicator(),
             );
           } else if (snapshot.hasError) {

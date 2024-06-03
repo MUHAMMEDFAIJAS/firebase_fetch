@@ -15,4 +15,8 @@ class StService {
         .map((doc) => StModel.fromJson(doc.data() as Map<String, dynamic>))
         .toList());
   }
+
+  Future<void> deletedata( String id) async {
+    await fireStore.doc(id).delete();
+  }
 }

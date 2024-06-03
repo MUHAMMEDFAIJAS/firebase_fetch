@@ -16,17 +16,17 @@ class AddPage extends StatelessWidget {
           children: [
             TextFormField(
               controller: nameCtrl,
-              decoration: InputDecoration(border: OutlineInputBorder()),
+              decoration: const InputDecoration(border: OutlineInputBorder()),
             ),
             TextFormField(
               controller: emailCtrl,
-              decoration: InputDecoration(border: OutlineInputBorder()),
+              decoration: const InputDecoration(border: OutlineInputBorder()),
             ),
             ElevatedButton(
                 onPressed: () {
                   add();
                 },
-                child: Text("submit")),
+                child:const Text("submit")),
           ],
         ),
       ),
